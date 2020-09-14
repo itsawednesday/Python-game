@@ -118,15 +118,6 @@ while main:
                 catX_place = 0
 
 
-            if event.type == pygame.K_SPACE and catY < HEIGHT - pixel:
-                jump = 200
-            if jump > 0:
-                catY -= vel
-                jump -= vel
-            elif catY < WIDTH - pixel:
-                catY += 1
-
-
 
 
   #  pygame.display.flip()
